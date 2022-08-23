@@ -2,7 +2,11 @@
     font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-html {
+ul, li {
+    list-style-type: none;
+}
+
+body {
     margin: 0;
     padding: 0;
 }
@@ -46,7 +50,7 @@ html {
     grid-column: 1 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+    grid-row: 1 / 4;
 }
 
 
@@ -57,4 +61,30 @@ html {
 
 .trending {
     grid-column: 3 / 4;
+}
+
+.project-actions {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.project-actions > li {
+    height: 2rem;
+    width: 2rem;
+}
+
+.navigation {
+    padding-left: 0;
+}
+
+.navigation>li {
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+}
+
+.profilepicture {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
 }
