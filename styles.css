@@ -20,6 +20,7 @@ body {
     grid-column: 2 / 3;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    background-color: #F8FAFC;
     
 }
 
@@ -27,6 +28,8 @@ body {
 .sidebar {
     grid-row: 1 / 3;
     display: grid;
+    background-color: #F8FAFC;
+    
 }
 
 .header-top {
@@ -44,6 +47,7 @@ body {
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: #CBD5E1
 }
 
 .projects {
@@ -75,6 +79,7 @@ body {
 
 .navigation {
     padding-left: 0;
+    
 }
 
 .navigation>li {
@@ -92,6 +97,8 @@ body {
 .logo {
     display: flex;
     width:100%;
+    height: fit-content;
+    align-items: center;
 }
 
 .logo>img {
