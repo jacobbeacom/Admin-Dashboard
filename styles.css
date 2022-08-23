@@ -88,3 +88,18 @@ body {
     height: 3rem;
     width: 3rem;
 }
+
+.logo {
+    display: flex;
+    width:100%;
+}
+
+.logo>img {
+    width: 50%;
+    align-self: flex-start;
+}
+
+.header-top>img:not(.profilepicture) {
+    height: 2rem;
+    width: 2rem;
+}
