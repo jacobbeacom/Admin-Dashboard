@@ -170,3 +170,7 @@ li {
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
+
+.trending-users {
+    padding-left: 0;
+}
