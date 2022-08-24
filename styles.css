@@ -9,11 +9,17 @@ ul, li {
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+html {
+    height: 100vh;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    height: 100%;
 }
 
 .header {
@@ -29,25 +35,31 @@ body {
     grid-row: 1 / 3;
     display: grid;
     background-color: #F8FAFC;
-    
 }
 
 .header-top {
     display: grid;
     grid-auto-flow: column;
+    align-items: center;
 
 }
 
 .header-bottom {
     display: grid;
     grid-auto-flow: column;
+    grid-template-columns: repeat();
+    align-items: center;
 }
 
 .content {
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #CBD5E1
+    background-color: #CBD5E1;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .projects {
@@ -60,11 +72,18 @@ body {
 
 .announcements {
     grid-column: 3 / 4;
+    background-color: #F1F5F9;
+    border-radius: 5%;
+    padding: 1rem;
+    margin-bottom: 1rem;
 
 }
 
 .trending {
     grid-column: 3 / 4;
+    background-color: #F1F5F9;
+    border-radius: 5%;
+    padding: 1rem;
 }
 
 .project-actions {
@@ -78,20 +97,23 @@ body {
 }
 
 .navigation {
-    padding-left: 0;
-    
+    padding: 0;
+
 }
 
 .navigation>li {
     display: flex;
     height: 2rem;
     width: 2rem;
+    align-items: center;
+    
 }
 
 .profilepicture {
     border-radius: 50%;
     height: 3rem;
     width: 3rem;
+
 }
 
 .logo {
@@ -109,4 +131,42 @@ body {
 .header-top>img:not(.profilepicture) {
     height: 2rem;
     width: 2rem;
+}
+
+button {
+    border-radius: 4rem;
+}
+
+.header-top>img.profilepicture {
+    grid-column: 5 / 6
+}
+
+.displayname {
+    grid-column: 5 / 6;
+    justify-self: end;
+}
+
+.header-bottom>p {
+    position: relative;
+    right: 5rem;
+}
+
+li {
+    margin-bottom: 1.5rem;
+}
+
+.navigation>li>p {
+    margin-left: .5rem;
+}
+
+.sidebar>ul {
+    height: fit-content;
+}
+
+.article {
+    background-color: #F1F5F9;
+    border-radius: 5%;
+    padding: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
