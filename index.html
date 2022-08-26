@@ -13,19 +13,27 @@
     <div class="container">
         <div class="header">
             <div class="header-top">
-                <img src="assets/magnify.svg" alt="search-icon">
-                <input type="text" class="searchbar">
-                <img src="assets/bell.svg" alt="notification-bell">
-                <img src="assets/IMG_1155.jpg" alt="user-profile-picture" class="profilepicture">
-                <p class="displayname">Jacob Beacom</p>
+                <div class="search">  
+                    <img src="assets/magnify.svg" alt="search-icon">
+                    <input type="text" class="searchbar">
+                </div>      
+                <div class="current-user">
+                    <img src="assets/bell.svg" alt="notification-bell">
+                    <img src="assets/IMG_1155.jpg" alt="user-profile-picture" class="profilepicture">
+                    <p class="displayname">Jacob Beacom</p>
+                </div>    
             </div> 
             <div class="header-bottom">
-                <img src="assets/IMG_1155.jpg" alt="user-profile-picture" class="profilepicture">
-                <p>Hi there,<br>
-                <strong>Jacob Beacom (@jacob)</strong></p>
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
+                <div class="greeting">
+                    <img src="assets/IMG_1155.jpg" alt="user-profile-picture" class="profilepicture">
+                    <p>Hi there,<br>
+                    <strong>Jacob Beacom (@jacob)</strong></p>
+                </div>        
+                <div class="buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>    
             </div>   
         </div>
         <div class="sidebar">
@@ -75,10 +83,11 @@
             </ul>
         </div>
         <div class="content">
-            <h4>Your Projects</h4>
             <div class="projects">
-                <div class="article">
-                    <h4>Project</h4>
+                <h4>Your Projects</h4>
+                <div class="proj-container">       
+                    <div class="article">
+                        <h4>Project</h4>
                     <p>Lorem ipsum yada yada yada</p>
                     <ul class="project-actions">
                         <li>
@@ -166,21 +175,24 @@
                             <a href=""><img src="assets/share-variant.svg" alt="Share icon"></a>
                         </li>
                     </ul>
+                </div>
                 </div>
         </div>
         <div class="announcements">
             <h4>Announcements</h4>
-            <div class="announcement-container">
-                <h5>Site Maintenance</h5>
-                <p>Due to unforseen circumstances, the platform will be down for maintenance. This is estimated to last two hours, thank you for your understanding.</p>
-            </div>
-            <div class="announcement-container">
-                <h5>Celebration time!</h5>
-                <p>Yay! The project has been completed.</p>
-            </div>
-            <div class="announcement-container">
-                <h5>Site Launch</h5>
-                <p>The site is now live! Feel free to check out the projects listed and leave some feedback.</p>
+            <div class="ann-container">
+                <div class="announcement-container">
+                    <h5>Site Maintenance</h5>
+                    <p>Due to unforseen circumstances, the platform will be down for maintenance. This is estimated to last two hours, thank you for your understanding.</p>
+                </div>
+                <div class="announcement-container">
+                    <h5>Celebration Time!</h5>
+                    <p>Yay! The project has been completed.</p>
+                </div>
+                <div class="announcement-container">
+                    <h5>Site Launch</h5>
+                    <p>The site is now live! Feel free to check out the projects listed and leave some feedback.</p>
+                </div>
             </div>
         </div>
         <div class="trending">
@@ -188,24 +200,32 @@
             <div class="trending-container">
                 <ul class="trending-users">
                     <li>
-                        <img src="assets/IMG_1155.jpg" alt="@jacob profile picture" class="profilepicture">
-                        <p class="username">@jacob</p>
-                        <p class="userbio">World Peace Builder</p>
+                        <div class="current-user">
+                            <img src="assets/IMG_1155.jpg" alt="@jacob profile picture" class="profilepicture">
+                            <p class="username">@jacob</p>
+                        </div>
+                        <p class="userbio">dev</p>
                     </li>
                     <li>
-                        <img src="assets/kenzie.jpg" alt="@kenzie profile picture" class="profilepicture">
-                        <p class="username">@kenzie</p>
-                        <p class="userbio">World Peace Builder</p>
+                        <div class="current-user">
+                            <img src="assets/kenzie.jpg" alt="@kenzie profile picture" class="profilepicture">
+                            <p class="username">@kenzie</p>
+                        </div>
+                        <p class="userbio">👑👑👑</p>
                     </li>
                     <li>
-                        <img src="assets/tank.jpg" alt="@tank profile picture" class="profilepicture">
-                        <p class="username">@tank</p>
-                        <p class="userbio">World Peace Builder</p>
+                        <div class="current-user">
+                            <img src="assets/tank.jpg" alt="@tank profile picture" class="profilepicture">
+                            <p class="username">@tank</p>
+                        </div>
+                        <p class="userbio">Goodest of boys</p>
                     </li>
                     <li>
-                        <img src="assets/bill.jpg" alt="@bill profile picture" class="profilepicture">
-                        <p class="username">@bill</p>
-                        <p class="userbio">World Peace Builder</p>
+                        <div class="current-user">
+                            <img src="assets/bill.jpg" alt="@bill profile picture" class="profilepicture">
+                            <p class="username">@bill</p>
+                        </div>
+                        <p class="userbio">Professional Chicken</p>
                     </li>
                 </ul>
             </div>
