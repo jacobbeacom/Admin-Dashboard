@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jacobbeacom/Admin-Dashboard">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/alien.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Admin Dashboard</h3>
