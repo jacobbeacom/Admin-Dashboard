@@ -85,26 +85,31 @@ html {
 
 .announcements {
     grid-column: 3 / 4;
+    height: 100%;
 }
 
 .ann-container {
     background-color: #F1F5F9;
-    border-radius: 5%;
+    border-radius: 2%;
     padding: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0 6px 2px -2px gray;
+    height: 80%;
+    
 }
 
 .trending {
     grid-column: 3 / 4;
+    height: 100%;
 
 }
 
 .trending-container {
     background-color: #F1F5F9;
-    border-radius: 5%;
+    border-radius: 2%;
     padding: 1rem;
     box-shadow: 0 6px 2px -2px gray;
+    
 }
 
 .navigation {
@@ -153,6 +158,10 @@ button {
     padding: 1rem;
     color: white;
     margin: .5rem;
+}
+
+button:active {
+    background-color: #0c1016;
 }
 
 .buttons {
@@ -276,3 +285,12 @@ li {
     border-bottom: 1px solid #CBD5E1; 
 }
 
+.right-side-content-container {
+    grid-row: 1 / 4;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.article>p {
+    color: #5f5f5f
+}
