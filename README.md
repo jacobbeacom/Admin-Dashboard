@@ -80,7 +80,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Admin-Dashboard-Screen-Shot][dashboard-complete.png]](https://jacobbeacom.github.io/Admin-Dashboard/)
+[![Admin Dashboard Screenshot][Admin-Dashboard-Screen-Shot]](https://jacobbeacom.github.io/Admin-Dashboard/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
